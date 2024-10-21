@@ -1,8 +1,8 @@
 <main class="flex-grow max-w-7xl mx-auto px-4 py-6">
     <h1 class="text-2xl font-semibold mb-4">Relatório de Evolução</h1>
 
-    <div class="mb-4">
-        <canvas id="evolutionChart" width="400" height="200"></canvas>
+    <div class="mb-4 overflow-x-auto">
+        <canvas id="evolutionChart" class="max-w-full" width="400" height="200"></canvas>
     </div>
 </main>
 
