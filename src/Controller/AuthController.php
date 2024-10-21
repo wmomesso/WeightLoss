@@ -42,7 +42,7 @@ class AuthController
     public function logout(): void
     {
         $this->authService->logout();
-        header('Location: /login');
+        header('Location: /?acao=login');
         exit;
     }
 }
