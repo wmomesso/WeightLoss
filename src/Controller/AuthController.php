@@ -30,8 +30,9 @@ class AuthController
                 exit;
             } else {
                 // Exibir mensagem de erro
-                print_r($email, $senha);
-                echo "Email ou senha inválidos.";
+                echo "<script>
+                        alert('Login ou senhas errado!');
+                      </script>";
             }
         }
 
